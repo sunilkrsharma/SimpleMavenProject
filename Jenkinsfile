@@ -33,7 +33,7 @@ pipeline {
             }
         }
 
-		stage('Testing'){
+		/*stage('Testing'){
 			parallel {
 				stage ('Unit Testing'){
 					steps {
@@ -62,7 +62,7 @@ pipeline {
 							}
 						}
 					}
-				}
+				}*/
 
 		}   
 }
