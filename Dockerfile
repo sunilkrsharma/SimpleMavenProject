@@ -8,6 +8,7 @@ RUN mkdir -p /usr/share/maven \
   && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn
 
 ENV MAVEN_HOME /usr/share/maven
+EXPOSE 8000
 
 VOLUME /root/.m2
 
