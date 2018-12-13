@@ -1,5 +1,6 @@
 FROM  phusion/baseimage:0.9.17
 ENV JAVA_VER 8
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 ENV MAVEN_VERSION 3.3.9
 
 RUN mkdir -p /usr/share/maven \
