@@ -22,4 +22,4 @@ EXPOSE 8000
 
 VOLUME /root/.m2
 
-CMD ["mvn"] 
+CMD ["mvn clean install"] 
