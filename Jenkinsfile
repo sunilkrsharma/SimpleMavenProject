@@ -4,6 +4,7 @@ pipeline {
         stage('CodeCheckOut') {
             steps {
                 script {
+			
                     checkout scm
                     def mvnHome = tool 'maven-3'
                 }
