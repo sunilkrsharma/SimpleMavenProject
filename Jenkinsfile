@@ -1,4 +1,4 @@
-#user testing#
+
 pipeline {
     agent any
     stages {
